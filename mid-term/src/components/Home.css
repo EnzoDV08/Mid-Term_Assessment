@@ -1,0 +1,53 @@
+.img1 {
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    left: 52px;
+    width: 800px; 
+  }
+  
+  .img2 {
+    position: absolute;
+    top: 350px; 
+    left: -80px;
+    z-index: 2;
+    width: 489px; 
+  }
+  
+  .para{
+    font-size: 90px;
+    font-weight: bold;
+  }
+  
+  .para1{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .button {
+    width: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+  
+  .button:active {
+    transform: translateY(1px);
+  }
+  
+
